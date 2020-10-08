@@ -5,7 +5,7 @@ by FandangosGroup
 A CuritibaCovidAPI consulta os dados públicos que são disponibilizados periodicamente pelo governo do Paraná<br>
 como usar em java:<br>
 chame a api de forma statica usando CuritibaCovidAPI.Companion.getDataSet() essa função retorna um ArrayList<Caso> o tipo "Caso" ja esta incluso na API, basta importar.<br>
-  <h3>tipo de dado Caso:</h3><br>
+  #tipo de dado Caso:<br>
 *  component1() = posicao: tipo String
 *  component2() = dataInclusaoNotificacao: tipo String
 *  component3() = classificacaoFinal: tipo String
@@ -13,7 +13,7 @@ chame a api de forma statica usando CuritibaCovidAPI.Companion.getDataSet() essa
 *  component5() = sexo: tipo String
 *  component6() = evolucao: tipo String
 *  component7() = dataObito: tipo String
-<p>exemplo de codigo em java:</p>
+#exemplo de codigo em java:</p>
   ```java
     import com.github.fandangosgroup.pcovid.model.Caso;
     import com.github.fandangosgroup.pcovid.model.CuritibaCovidAPI;

@@ -12,7 +12,7 @@ chame a api de forma statica usando CuritibaCovidAPI.Companion.getDataSet() essa
 *  component4() = idade: tipo String
 *  component5() = sexo: tipo String
 *  component6() = evolucao: tipo String
-*  component7() = dataObito: tipo String
+*  component7() = dataObito: tipo String <br>
 #exemplo de codigo em java:</p>
   ```java
     import com.github.fandangosgroup.pcovid.model.Caso;
@@ -26,4 +26,3 @@ chame a api de forma statica usando CuritibaCovidAPI.Companion.getDataSet() essa
         System.out.println(c.get(0).component2()); //Retorna a data do primeiro caso em curitiba.
       }
     }
-    ```
